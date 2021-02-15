@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="anti-plagiarism, text,uniqueness, repetition, misprint, validation">
+    <meta name="description" content="A word processor with artificial intelligence elements">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>Text.AI</title>
+</head>
+
+<body>
+    <div id="result" class="result"></div>
+<div id="particles-js"></div>
+    <div class="wallpaper">
+        <div class="wrapper">
+            <div id ="container" class="container">
+                <div class="all-body">
+                    <div class="header">
+                        <div class="main-text">
+                            <p>text.AI</p>
+                        </div>
+                        <div id ="subtitle" class="sub-text">
+                            <p>Intelligent App for text processing</p>
+                        </div>
+                    </div>
+                    <div id="content" class="content">
+                        <div class="content-row">
+                            <div class="content-column1">
+                                <div class="sub-row1">
+                                    <div class="text-area">
+                                        <form action="#" method="post">
+                                            <textarea id="value" name="value" placeholder="Input text..."></textarea>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="sub-row2">
+                                    <div class="select-menu">
+                                        <div class="menu">
+                                            <select required>
+                                                <option value="s0" class="icon-uniqueness">Uniqueness</option>
+                                                <option value="s1" disabled class="icon-repetition">Repetition</option>
+                                                <option value="s2" disabled class="icon-misprint">Misprint</option>
+                                                <option value="s3" disabled class="icon-validation">Validation</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id ="send1" class="check-button">
+                                        <a href="Page2.html"><button id=”send” type="button" class = "btn">Check</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-column2">
+                                <div id = "img" class="content-picture">
+                                    <img id="img-brain" src="src/main.png" alt="brain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="logo">
+                            <a href="http://devincubator.by/">
+                                <img src="src/logo.jpg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="names">Vladislav and Anna, 2021</div>
+                        <div class="icons">
+                            <a href="https://github.com/vladz-ostr/AI-Project">
+                                <img src="src/github.jpg" alt="git">
+                            </a>
+                            <a href="https://vk.com/">
+                                <img src="src/vk.jpg" alt="vk">
+                            </a>
+                            <a href="https://www.facebook.com/">
+                                <img src="src/facebook.jpg" alt="fb">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/particlesimg.js"></script>
+    <script src="src/appimg.js"></script>
+    <script src="https://kit.fontawesome.com/5c6ff8eb8e.js" crossorigin="anonymous"></script>
+
+    <script src="src/particles.js"></script>
+    <script src="src/app.js"></script>
+
+    <script src="src/serverRequest.js"></script>
+</body>
+
+</html>
