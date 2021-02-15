@@ -24,10 +24,10 @@ copy src/chooseArrow.jpg /var/www/html/src/chooseArrow.jpg
 copy src/facebook.jpg /var/www/html/src/facebook.jpg
 copy src/font.jpg /var/www/html/src/font.jpg
 copy src/github.jpg /var/www/html/src/github.jpg
-copy src/Group 19.jpg /var/www/html/src/Group 19.jpg
-copy src/Group 47.jpg /var/www/html/src/Group 47.jpg
-copy src/Group 48.jpg /var/www/html/src/Group 48.jpg
-copy src/Group 49.jpg /var/www/html/src/Group 49.jpg
+copy src/Group19.jpg /var/www/html/src/Group19.jpg
+copy src/Group47.jpg /var/www/html/src/Group47.jpg
+copy src/Group48.jpg /var/www/html/src/Group48.jpg
+copy src/Group49.jpg /var/www/html/src/Group49.jpg
 copy src/logo.jpg /var/www/html/src/logo.jpg 
 copy src/vk.jpg /var/www/html/src/vk.jpg
 copy src/appimg.js /var/www/html/src/appimg.js
