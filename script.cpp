@@ -83,8 +83,9 @@ double antiPlagiarism(string sourceText, string verifiableText) {
 	double percentageOfPlagiarism = calculatingPercentageOfPlagiarism(sourceTextArray, verifiableTextArray, amountOfWordsInSourceText, amountOfWordsInVerifiableText);
 	
 	printPercentage(percentageOfPlagiarism);
+	return percentageOfPlagiarism;
 
-};
+}
 
 string textConvertation(string text){
 	string temp;
