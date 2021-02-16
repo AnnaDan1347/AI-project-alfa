@@ -20,9 +20,9 @@ body {
     font-weight: 400;
     position: absolute;
     bottom: 0;
-    top: 42%;
+    top: 44%;
     right: 0;
-    left: 63%;
+    left: 56%;
     z-index: 999;
    }
    
@@ -335,6 +335,12 @@ select {
 }
 
 @media only screen and (max-device-width: 768px){
+    
+ .result {
+    top: 20%;   
+    left: 17%;
+    font-size: 4rem;
+   }
 
     .wrapper::before {
         width: 1024px;
