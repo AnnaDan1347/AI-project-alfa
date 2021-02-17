@@ -6,6 +6,7 @@
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
 #include <cgicc/HTMLClasses.h>
+#include <cmath>
 using namespace std;
 using namespace cgicc;
 
@@ -83,7 +84,7 @@ double antiPlagiarism(string sourceText, string verifiableText) {
 	double percentageOfPlagiarism = calculatingPercentageOfPlagiarism(sourceTextArray, verifiableTextArray, amountOfWordsInSourceText, amountOfWordsInVerifiableText);
 	
 	printPercentage(percentageOfPlagiarism);
-	return (100-percentageOfPlagiarism);
+	return round(((100-percentageOfPlagiarism)*100)/100);
 
 }
 
