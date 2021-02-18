@@ -352,7 +352,8 @@ select {
     
  .result {
     top: 0%;   
-    left: 17%;
+    left: 0%;
+    text-align: center;
     font-size: 4rem;
    }
 
