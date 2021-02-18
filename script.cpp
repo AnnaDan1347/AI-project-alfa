@@ -114,11 +114,6 @@ int howManyWordsTextHas(string text){
 		}
 	}
 	
-	if(counter < DEPTH){
-	//cout << "You inputed too short string!" << endl;
-		
-		return - 1;
-	}
 	
 	return counter;
 }
